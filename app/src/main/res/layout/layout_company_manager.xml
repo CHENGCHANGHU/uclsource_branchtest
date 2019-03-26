@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".company.CompanyManagerActivity">
+
+    <include
+        layout="@layout/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCompanyMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="企业组织信息" />
+
+    <Button
+        android:id="@+id/btnCompanyStaff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="企业人员管理" />
+
+    <Button
+        android:id="@+id/btnOperateScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经营规模" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出登录" />
+
+
+</LinearLayout>

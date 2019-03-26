@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+
+    <base-config cleartextTrafficPermitted="true" />
+    <!--<domain-config-->
+    <!--cleartextTrafficPermitted="true"-->
+    <!--tools:ignore="NetworkSecurityConfig">-->
+    <!--<domain>http://223.3.72.161:8000/login?characterFlag=1</domain>-->
+    <!--&lt;!&ndash;<domain includeSubdomains="true">http://223.3.72.161:8000/login?characterFlag=1</domain>&ndash;&gt;-->
+    <!--<domain includeSubdomains="true">223.3.72.161</domain>-->
+    <!--</domain-config>-->
+</network-security-config>
